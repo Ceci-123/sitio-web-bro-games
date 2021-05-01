@@ -1,0 +1,9 @@
+# Grupo 1
+User-agent: Googlebot
+Allow: /
+
+# Grupo 2
+User-agent: *
+Allow: /
+
+Sitemap: http://www.brogames.com.ar/sitemap.xml

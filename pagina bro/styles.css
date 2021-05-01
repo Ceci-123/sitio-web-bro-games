@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+   
+}
+
+header {
+    height: 55vh;
+    background-image: url(./Portada.jpg);
+    background-size: contain;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    /* font-family: 'Grandstander', cursive, Arial, Helvetica, sans-serif; */
+    font-family: 'Allerta Stencil', sans-serif;
+}
+a {
+    color: #0ff6c2;
+    text-decoration: none;
+}
+li {
+    background-color: #3797a4;
+    display: inline;
+    padding: 15px;
+    margin: 30 auto;
+    border-radius: 27px 27px 27px 27px;
+-moz-border-radius: 27px 27px 27px 27px;
+-webkit-border-radius: 27px 27px 27px 27px;
+border: 7px solid #000000;
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.img-responsive {
+    max-height: 300px;
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    color: #0ff6c2;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+#textoa {
+    color: blanchedalmond;
+}
+#alfabeto {
+    color: crimson;
+    flex-wrap: wrap;
+        
+}
+legend {
+    color: crimson;
+}
+.truco {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+    right:20px;
+    z-index: 2;
+}
+#alfabeto li {
+    background-color: #080808;
+    border-color: #3797a4;
+}
